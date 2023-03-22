@@ -14,6 +14,9 @@
 		B1AC524229CA7DD70094A089 /* MAPD724___ICE8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1AC524029CA7DD70094A089 /* MAPD724___ICE8.xcdatamodeld */; };
 		B1AC524429CA7DD80094A089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AC524329CA7DD80094A089 /* Assets.xcassets */; };
 		B1AC524729CA7DD80094A089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AC524529CA7DD80094A089 /* LaunchScreen.storyboard */; };
+		B1AC524F29CA7F900094A089 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B1AC524E29CA7F900094A089 /* MobileNetV2.mlmodel */; };
+		B1AC525129CA7FE90094A089 /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B1AC525029CA7FE90094A089 /* car.jpeg */; };
+		B1AC525529CA83490094A089 /* bottle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B1AC525429CA83490094A089 /* bottle.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		B1AC524329CA7DD80094A089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1AC524629CA7DD80094A089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1AC524829CA7DD80094A089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1AC524E29CA7F900094A089 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		B1AC525029CA7FE90094A089 /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpeg; sourceTree = "<group>"; };
+		B1AC525229CA826E0094A089 /* pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pig.jpg; sourceTree = "<group>"; };
+		B1AC525329CA82EE0094A089 /* bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottle.jpg; sourceTree = "<group>"; };
+		B1AC525429CA83490094A089 /* bottle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottle.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,11 @@
 				B1AC523729CA7DD70094A089 /* AppDelegate.swift */,
 				B1AC523929CA7DD70094A089 /* SceneDelegate.swift */,
 				B1AC523B29CA7DD70094A089 /* ViewController.swift */,
+				B1AC525329CA82EE0094A089 /* bottle.jpg */,
+				B1AC525429CA83490094A089 /* bottle.jpeg */,
+				B1AC525229CA826E0094A089 /* pig.jpg */,
+				B1AC525029CA7FE90094A089 /* car.jpeg */,
+				B1AC524E29CA7F900094A089 /* MobileNetV2.mlmodel */,
 				B1AC523D29CA7DD70094A089 /* Main.storyboard */,
 				B1AC524329CA7DD80094A089 /* Assets.xcassets */,
 				B1AC524529CA7DD80094A089 /* LaunchScreen.storyboard */,
@@ -129,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1AC524729CA7DD80094A089 /* LaunchScreen.storyboard in Resources */,
+				B1AC525129CA7FE90094A089 /* car.jpeg in Resources */,
+				B1AC525529CA83490094A089 /* bottle.jpeg in Resources */,
 				B1AC524429CA7DD80094A089 /* Assets.xcassets in Resources */,
 				B1AC523F29CA7DD70094A089 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +159,7 @@
 				B1AC524229CA7DD70094A089 /* MAPD724___ICE8.xcdatamodeld in Sources */,
 				B1AC523C29CA7DD70094A089 /* ViewController.swift in Sources */,
 				B1AC523829CA7DD70094A089 /* AppDelegate.swift in Sources */,
+				B1AC524F29CA7F900094A089 /* MobileNetV2.mlmodel in Sources */,
 				B1AC523A29CA7DD70094A089 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
